@@ -1,5 +1,8 @@
 name: Sync Calendars
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: "*/30 * * * *"
