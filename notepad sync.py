@@ -2,8 +2,8 @@ import requests
 from ics import Calendar, Event
 import uuid
 
-AIRBNB_URL = "YOUR_AIRBNB_ICAL_URL"
-VRBO_URL = "YOUR_VRBO_ICAL_URL"
+AIRBNB_URL = "https://www.airbnb.com/calendar/ical/1740960668230490790.ics?t=077dcb2866984805aeccf4af744274a9"
+VRBO_URL = "https://www.vrbo.com/icalendar/0569fb77001349bc9b28af51cfe69e0f.ics?nonTentative"
 
 def fetch_calendar(url):
     r = requests.get(url)
